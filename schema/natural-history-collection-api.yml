@@ -10,72 +10,76 @@ info:
     email: info@dina-project.net
   license:
     name: Apache 2.0
-    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
 
 paths:
   /v1/collecting-event:
-    $ref: 'collectingEvent.yml#/paths/~1v1~1collecting-event'
+    $ref: "collectingEvent.yml#/paths/~1v1~1collecting-event"
   /v1/collecting-event/{Id}:
-    $ref: 'collectingEvent.yml#/paths/~1v1~1collecting-event~1{Id}'
+    $ref: "collectingEvent.yml#/paths/~1v1~1collecting-event~1{Id}"
   /v1/collection:
-    $ref: 'collection.yml#/paths/~1v1~1collection'
+    $ref: "collection.yml#/paths/~1v1~1collection"
   /v1/collection/{Id}:
-    $ref: 'collection.yml#/paths/~1v1~1collection~1{Id}'
+    $ref: "collection.yml#/paths/~1v1~1collection~1{Id}"
   /v1/collection-sequence-generator:
-    $ref: 'collectionSequenceGenerator.yml#/paths/~1v1~1collection-sequence-generator'
+    $ref: "collectionSequenceGenerator.yml#/paths/~1v1~1collection-sequence-generator"
   /v1/expedition:
-    $ref: 'expedition.yml#/paths/~1v1~1expedition'
+    $ref: "expedition.yml#/paths/~1v1~1expedition"
   /v1/expedition/{Id}:
-    $ref: 'expedition.yml#/paths/~1v1~1expedition~1{Id}'
+    $ref: "expedition.yml#/paths/~1v1~1expedition~1{Id}"
   /v1/managed-attribute:
-    $ref: 'collectionManagedAttribute.yml#/paths/~1v1~1managed-attribute'
+    $ref: "collectionManagedAttribute.yml#/paths/~1v1~1managed-attribute"
   /v1/managed-attribute/{Id}:
-    $ref: 'collectionManagedAttribute.yml#/paths/~1v1~1managed-attribute~1{Id}'
+    $ref: "collectionManagedAttribute.yml#/paths/~1v1~1managed-attribute~1{Id}"
   /v1/material-sample:
-    $ref: 'materialSample.yml#/paths/~1v1~1material-sample'
+    $ref: "materialSample.yml#/paths/~1v1~1material-sample"
   /v1/material-sample/{Id}:
-    $ref: 'materialSample.yml#/paths/~1v1~1material-sample~1{Id}'
+    $ref: "materialSample.yml#/paths/~1v1~1material-sample~1{Id}"
   /v1/preparation-type:
-    $ref: 'preparationType.yml#/paths/~1v1~1preparation-type'
+    $ref: "preparationType.yml#/paths/~1v1~1preparation-type"
   /v1/preparation-type/{Id}:
-    $ref: 'preparationType.yml#/paths/~1v1~1preparation-type~1{Id}'
+    $ref: "preparationType.yml#/paths/~1v1~1preparation-type~1{Id}"
   /v1/preparation-method:
-    $ref: 'preparationMethod.yml#/paths/~1v1~1preparation-method'
+    $ref: "preparationMethod.yml#/paths/~1v1~1preparation-method"
   /v1/preparation-method/{Id}:
-    $ref: 'preparationMethod.yml#/paths/~1v1~1preparation-method~1{Id}'
+    $ref: "preparationMethod.yml#/paths/~1v1~1preparation-method~1{Id}"
   /v1/institution:
-    $ref: 'institution.yml#/paths/~1v1~1institution'
+    $ref: "institution.yml#/paths/~1v1~1institution"
   /v1/institution/{Id}:
-    $ref: 'institution.yml#/paths/~1v1~1institution~1{Id}'
+    $ref: "institution.yml#/paths/~1v1~1institution~1{Id}"
   /v1/storage-unit-type:
-    $ref: 'storageUnitType.yml#/paths/~1v1~1storage-unit-type'
+    $ref: "storageUnitType.yml#/paths/~1v1~1storage-unit-type"
   /v1/storage-unit-type/{Id}:
-    $ref: 'storageUnitType.yml#/paths/~1v1~1storage-unit-type~1{Id}'
+    $ref: "storageUnitType.yml#/paths/~1v1~1storage-unit-type~1{Id}"
   /v1/project:
-    $ref: 'project.yml#/paths/~1v1~1project'
+    $ref: "project.yml#/paths/~1v1~1project"
   /v1/project/{Id}:
-    $ref: 'project.yml#/paths/~1v1~1project~1{Id}'
+    $ref: "project.yml#/paths/~1v1~1project~1{Id}"
   /v1/assemblage:
-    $ref: 'assemblage.yml#/paths/~1v1~1assemblage'
+    $ref: "assemblage.yml#/paths/~1v1~1assemblage"
   /v1/assemblage/{Id}:
-    $ref: 'assemblage.yml#/paths/~1v1~1assemblage~1{Id}'
+    $ref: "assemblage.yml#/paths/~1v1~1assemblage~1{Id}"
   /v1/form-template:
-    $ref: 'formTemplate.yml#/paths/~1v1~1form-template'
+    $ref: "formTemplate.yml#/paths/~1v1~1form-template"
   /v1/form-template/{Id}:
-    $ref: 'formTemplate.yml#/paths/~1v1~1form-template~1{Id}'
+    $ref: "formTemplate.yml#/paths/~1v1~1form-template~1{Id}"
   /v1/organism:
-    $ref: 'organism.yml#/paths/~1v1~1organism'
+    $ref: "organism.yml#/paths/~1v1~1organism"
   /v1/organism/{Id}:
-    $ref: 'organism.yml#/paths/~1v1~1organism~1{Id}'
+    $ref: "organism.yml#/paths/~1v1~1organism~1{Id}"
   /v1/protocol:
-    $ref: 'protocol.yml#/paths/~1v1~1protocol'
+    $ref: "protocol.yml#/paths/~1v1~1protocol"
   /v1/protocol/{Id}:
-    $ref: 'protocol.yml#/paths/~1v1~1protocol~1{Id}'
+    $ref: "protocol.yml#/paths/~1v1~1protocol~1{Id}"
+  /v1/site:
+    $ref: "site.yml#/paths/~1v1~1site"
+  /v1/site/{Id}:
+    $ref: "site.yml#/paths/~1v1~1site~1{Id}"
   /v1/storage-unit:
-    $ref: 'storageUnit.yml#/paths/~1v1~1storage-unit'
+    $ref: "storageUnit.yml#/paths/~1v1~1storage-unit"
   /v1/storage-unit/{Id}:
-    $ref: 'storageUnit.yml#/paths/~1v1~1storage-unit~1{Id}'
+    $ref: "storageUnit.yml#/paths/~1v1~1storage-unit~1{Id}"
   /v1/storage-unit-usage:
-    $ref: 'storageUnitUsage.yml#/paths/~1v1~1storage-unit-usage'
+    $ref: "storageUnitUsage.yml#/paths/~1v1~1storage-unit-usage"
   /v1/storage-unit-usage/{Id}:
-    $ref: 'storageUnitUsage.yml#/paths/~1v1~1storage-unit-usage~1{Id}'
+    $ref: "storageUnitUsage.yml#/paths/~1v1~1storage-unit-usage~1{Id}"
